@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/icon.png ">
+</head>
+
+<body>
+    <!-- <div class="preloader">
+        <img src="img/load.gif" alt="">
+    </div> -->
+    <div class="wrapper">
+        <nav class="menu">
+            <div class="container">
+                <ul class="menu__list">
+                    <li class="menu__links"><a href="#home" class="link">Home</a></li>
+                    <li class="menu__links"><a href="#anime" class="link">Anime</a></li>
+                    <li class="menu__links"><a href="#character" class="link">Onepunchman</a></li>
+                    <li class="menu__links"><a href="#sound" class="link">Soundtrack</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header class="header" id="home">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__info">
+                        <h1>OnePunchMan</h1>
+                        <p>The most popular anime in the world</p>
+                        <div class="btn__link">
+                            <a href="#" class="btn">More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="anime" id="anime">
+                <div class="container">
+                    <h2 class="title">Anime <i class="fa-solid fa-hand-fist"></i></h2>
+                    <div class="anime__row">
+                        <div class="anime__item">
+                            <img src="img/season1.png" alt="">
+                            <div class="item__content">
+                                <h3 class="item__title">Season 1</h3>
+                                <p>12 Episode</p>
+                            </div>
+                        </div>
+                        <div class="anime__item">
+                            <img src="img/season2.png" alt="">
+                            <div class="item__content">
+                                <h3 class="item__title">Season 2</h3>
+                                <p>12 Episode</p>
+                            </div>
+                        </div>
+                        <div class="anime__item">
+                            <img src="img/season3.png" alt="">
+                            <div class="item__content">
+                                <h3 class="item__title">Season 3</h3>
+                                <p>Soon</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fight">
+                <div class="container">
+                    <h2 class="title">The Epic Moment<i class="fa-solid fa-hand-fist"></i></h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jakLeunGJGU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </section>
+            <section class="character" id="character">
+                <div class="container">
+                    <h2 class="title">Top 8 Strong Characters<i class="fa-solid fa-hand-fist"></i></h2>
+                    <div class="character__row">
+                        <div class="character__card">
+                            <img src="img/saitama.png" alt="">
+                            <h5 class="name">Saitama</h5>
+                        </div>
+                        <div class="character__card">
+                            <img src="img/Garou.png" alt="">
+                            <h5 class="name">Garou</h5>
+                        </div>
+                        <div class="character__card">
+                            <img src="img/Blast.png" alt="">
+                            <h5 class="name">Blast</h5>
+                        </div>
+                        <div class="character__card">
+                            <img src="img/god.png" alt="">
+                            <h5 class="name">God</h5>
+                        </div>
+                        <div class="character__card">
+                            <img src="img/king.png" alt="">
+                            <h5 class="name">King</h5>
+                        </div>
+                        <div class="character__card">
+                            <img src="img/tat.png" alt="">
+                            <h5 class="name">Tatsumaki</h5>
+                        </div>
+                        <div class="character__card">
+                            <img src="img/boros.png" alt="">
+                            <h5 class="name">Boros</h5>
+                        </div>
+                        <div class="character__card">
+                            <img src="img/bang.png" alt="">
+                            <h5 class="name">Silver bang</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sound" id="sound">
+                <div class="container">
+                    <h2 class="title">Soundtrack<i class="fa-solid fa-hand-fist"></i></h2>
+                    <div id="waveform"></div>
+                    <button class="btn btn-primary" onclick="wavesurfer.playPause()">
+                        <i class="glyphicon glyphicon-play"></i>
+                        Play/Pause
+                    </button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <h2 class="footer__text">© 2022 Made By Zhanahmet</h2>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/wavesurfer.js"></script>
+<script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.regions.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
