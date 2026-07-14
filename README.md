@@ -1,6 +1,6 @@
 <div align="center">
 
-# Zhan Ahmetov
+# Zhani
 
 ### AI Engineer • Software Engineer • Full-Stack Developer
 
