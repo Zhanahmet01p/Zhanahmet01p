@@ -1,6 +1,6 @@
 <div align="center">
 
-# Zhani
+# Hi there, I'm Zhani
 
 ### AI Engineer • Software Engineer • Full-Stack Developer
 
